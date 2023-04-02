@@ -1,0 +1,22 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "nox>=2022.11.21",
+]
+
+[project]
+name = "sub-session"
+version = "0.0.1"
+description = "Enables creation of (mostly) isolated sub-sessions within a python instance."
+authors = [
+    {name = "sharpencrag", email = "ed.whetstone@gmail.com"},
+]
+dependencies = [
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
