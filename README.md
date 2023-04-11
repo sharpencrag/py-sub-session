@@ -1,5 +1,5 @@
 # py-sub-session
-Create "sub-sessions" within a long-running Python instance isolated imports, environment, and paths.
+Create "sub-sessions" within a long-running Python instance with isolated imports, environment, and paths.
 
 This solution was originally designed for use in digital content creation systems like
 Autodesk Maya, but the import and environment isolation could be
